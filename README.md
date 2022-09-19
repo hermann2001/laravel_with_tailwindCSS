@@ -13,8 +13,7 @@
 
 <p align="center">
     <a target="_blank" href="https://tailwindcss.com/docs/guides/laravel#mix">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.517 0C18.712 0 14.46 3.382 12.758 10.146c2.552-3.382 5.529-4.65 8.931-3.805 1.941.482 3.329 1.882 4.864 3.432 2.502 2.524 5.398 5.445 11.722 5.445 6.804 0 11.057-3.382 12.758-10.145-2.551 3.382-5.528 4.65-8.93 3.804-1.942-.482-3.33-1.882-4.865-3.431C34.736 2.92 31.841 0 25.517 0zM12.758 15.218C5.954 15.218 1.701 18.6 0 25.364c2.552-3.382 5.529-4.65 8.93-3.805 1.942.482 3.33 1.882 4.865 3.432 2.502 2.524 5.397 5.445 11.722 5.445 6.804 0 11.057-3.381 12.758-10.145-2.552 3.382-5.529 4.65-8.931 3.805-1.941-.483-3.329-1.883-4.864-3.432-2.502-2.524-5.398-5.446-11.722-5.446z" fill="#38bdf8">
-        </path>
+        TailWindCSS
     </a>
 </p>
 
@@ -26,7 +25,7 @@
     <li>
         <p><strong>Install Tailwind CSS</strong></p>
         <p>Install tailwindcss and its peer dependencies via npm, and create your 'tailwind.config.js' file.</p>
-        <div style="text-align:center; margin:50px; background-color:#504cfa">
+        <div style="text-align:center; margin:50px; background-color:#fff; color:#000;">
             <ol>
                 <li>npm install -D tailwindcss postcss autoprefixer</li>
                 <li>npx tailwindcss init</li>
@@ -36,7 +35,7 @@
     <li>
         <p><strong>Add Tailwind to your Laravel Mix configuration</strong></p>
         <p>In your "webpack.mix.js" file, add "tailwindcss" as a PostCSS plugin.</p>
-        <div style="text-align:center; margin:50px; background-color:#504cfa">
+        <div style="text-align:center; margin:50px; background-color:#fff; color:#000;">
             <p>
                 mix.js("resources/js/app.js", "public/js")<br/>
                     .postCss("resources/css/app.css", "public/css", [<br/>
@@ -48,7 +47,7 @@
     <li>
         <p><strong>Configure your template paths</strong></p>
         <p>Add the paths to all of your template files in your "tailwind.config.js" file.</p>
-        <div style="text-align:center; margin:50px; background-color:#504cfa">
+        <div style="text-align:center; margin:50px; background-color:#fff; color:#000;">
             <p>
                 /** @type {import('tailwindcss').Config} */<br/>
                 module.exports = {<br/>
@@ -68,7 +67,7 @@
     <li>
         <p><strong>Add the Tailwind directives to your CSS</strong></p>
         <p>Add the @tailwind directives for each of Tailwind’s layers to your "./resources/css/app.css" file.</p>
-        <div style="text-align:center; margin:50px; background-color:#504cfa">
+        <div style="text-align:center; margin:50px; background-color:#fff; color:#000;">
             <p>
                 @tailwind base;
                 @tailwind components;
@@ -83,7 +82,7 @@
     <li>
         <p><strong>Start using Tailwind in your project</strong></p>
         <p>Make sure your compiled CSS is included in the <head> then start using Tailwind’s utility classes to style your content.</p>
-        <div style="text-align:center; margin:50px; background-color:#504cfa">
+        <div style="text-align:center; margin:50px; background-color:#fff; color:#000;">
             <p>
                 <code class="flex-none min-w-full p-5">
                     <span class="token block"><span class="token doctype punctuation">&lt;!</span><span class="token doctype doctype-tag">doctype</span><span class="token doctype"> </span><span class="token doctype name">html</span><span class="token doctype punctuation">&gt;</span><span class="token plain"></span>
